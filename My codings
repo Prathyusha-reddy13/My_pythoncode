@@ -1,1 +1,6 @@
 print("hello world!")
+#area of rectangle
+length=15
+breadth=20
+area=length*breadth 
+print("area of rectangle is :",area)
