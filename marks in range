@@ -1,0 +1,5 @@
+marks = int(input("enter marks"))
+if marks>=0 and marks<=100:
+    print("marks are in range between 0 to 100")
+else:
+    print("marks are not in range")
