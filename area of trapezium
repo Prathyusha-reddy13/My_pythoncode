@@ -1,0 +1,5 @@
+a = int(input("enter len of other side"))
+b= int(input("enter a base"))
+h=int(input("enter height"))
+area = ((a*b)/2)*h
+print("area of trapezium is :",area)
