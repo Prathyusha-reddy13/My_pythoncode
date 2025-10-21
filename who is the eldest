@@ -1,0 +1,9 @@
+john = input("enter john's age")
+smith = input("enter smith's age")
+ajay = input("enter ajay's age")
+if john>smith and john>ajay:
+    print("john is the eldest")
+elif smith >ajay:
+    print("smith is the eldest")
+else:
+    print("ajay is the eldest")
