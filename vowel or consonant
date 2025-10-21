@@ -1,0 +1,6 @@
+letter = input("enter letter")
+lower_case = letter.lower()
+if lower_case == "a"or lower_case =="e"or lower_case=="i" or lower_case=="o"or lower_case=="u":
+      print("vowel")
+else:
+      print("consonant")
