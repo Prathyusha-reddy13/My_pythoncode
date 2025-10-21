@@ -1,0 +1,5 @@
+length = int(input("enter length"))
+breadth= int(input("enter breadth"))
+height =  int(input("enter height"))
+surface_area = 2*(length*breadth) + 2*(length*height)+2*(breadth*height)
+print("suface are of cuboid is : ",surface_area)
