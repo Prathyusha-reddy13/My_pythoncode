@@ -1,0 +1,15 @@
+n = int(input("enter a number"))
+rev =0
+while n>0:
+    r = n%10
+    n = n//10
+    rev = rev*10+r
+print( "reverse of the given number is ",rev)
+#another method won't work in jupiter notebook works in  python online compiler
+n = int(input("enter a number"))
+sum =""
+while n>0:
+    r = n%10
+    n = n//10
+    sum =sum + str(r)
+print(sum)   
