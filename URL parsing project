@@ -1,0 +1,9 @@
+url = input("enter the URL")
+protocol = url[:url.index(":")]
+dot1 = url.index(".")
+dot2 = url.index(".",dot1+1)
+domain = url[dot1+1:dot2]
+page = url[url.index("/",dot2)+1:]
+print("protocal:",protocol)
+print("domain:", domain)
+print("page:",page)
