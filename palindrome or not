@@ -1,3 +1,4 @@
+#for numbers
 n= int(input("enter the number"))
 num =n
 rev =0
@@ -6,6 +7,14 @@ while n>0:
     n = n//10
     rev = rev*10+rem
 if rev==num:
+    print("palindrome")
+else:
+    print("not palindrome")
+#for strings
+str =input("enter a word")
+lower_str = str.lower()    #converting the string into lower case
+str1 = lower_str[::-1]     #reversing the string
+if str1 == str:
     print("palindrome")
 else:
     print("not palindrome")
